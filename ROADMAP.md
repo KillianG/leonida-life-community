@@ -14,12 +14,12 @@ In the codebase and tested, not released yet.
 - Admin studio with the visual world and map editor and a guided supply-chain builder
 - Website, early-access waitlist and launch notifications (live at leonidalife.dev)
 - Docker packaging for self-hosting
+- Vehicles, garages, impound and shareable keys (temporary and permanent)
+- Factions with ranks, permissions and salaries; temporary groups; persistent organizations with shared bank, vault and vehicles
+- Player-to-player interactions, trades, configurable justice (fines, wanted levels, records, prison), death and respawn
 
 ## In development
 Being built now, not merged yet.
-- Vehicles and keys
-- Factions, temporary groups and persistent organizations
-- Player-to-player interactions, configurable justice, death and respawn
 - Browser simulator to play-test a world without any game
 - In-game UI kit and phone: inventory, shops, bank, market app
 
