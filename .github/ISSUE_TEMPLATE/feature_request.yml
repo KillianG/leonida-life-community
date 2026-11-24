@@ -1,0 +1,31 @@
+name: Feature request
+description: Suggest something that would help you build or run a Life server
+labels: ["feature request", "needs triage"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What are you trying to do, and what gets in the way today?
+    validations: { required: true }
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed functionality
+      description: How would you like it to work?
+    validations: { required: true }
+  - type: textarea
+    id: benefit
+    attributes:
+      label: Who benefits
+      description: How does it help server administrators or players?
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options: [World editor, Economy & market, Inventory & items, Vehicles & keys, Factions, Organizations & groups, Game UI & phone, Administration, Hosting & installation, SDK integration, Other]
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Existing alternatives
+      description: Does an existing feature already cover part of this?

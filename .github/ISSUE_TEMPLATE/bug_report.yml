@@ -1,0 +1,29 @@
+name: Bug report
+description: Something doesn't work as expected
+labels: ["bug", "needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: "Never include passwords, tokens, database dumps or private server details. Sanitize logs before pasting."
+  - type: input
+    id: version
+    attributes: { label: Version, placeholder: "e.g. commit, image tag or build date" }
+    validations: { required: true }
+  - type: input
+    id: environment
+    attributes: { label: Environment, placeholder: "OS, Docker version, browser" }
+  - type: textarea
+    id: expected
+    attributes: { label: Expected behavior }
+    validations: { required: true }
+  - type: textarea
+    id: actual
+    attributes: { label: Actual behavior }
+    validations: { required: true }
+  - type: textarea
+    id: steps
+    attributes: { label: Steps to reproduce, placeholder: "1. ...\n2. ..." }
+    validations: { required: true }
+  - type: textarea
+    id: logs
+    attributes: { label: Screenshots or sanitized logs, render: text }
