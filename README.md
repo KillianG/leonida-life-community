@@ -1,12 +1,13 @@
 # Leonida Life — Community
 
-**Leonida Life** is a self-hosted, no-code framework for building persistent multiplayer
-*Life* servers: player-driven economies, dynamic commodity markets, supply chains,
-factions, organizations and a visual world editor. It is the spiritual successor to
-Arma 3 Altis Life, rebuilt for modern open-world multiplayer games.
+**Leonida Life** is an Altis Life-style game mode set in Leonida. Everything runs on a
+player-driven economy: civilians farm, mine, process, haul and trade; police arrest,
+run checkpoints and anti-contraband raids; rebels run smuggling convoys and rob
+players (bank heists planned); medics revive the wounded. Servers host it themselves
+and set it up without code.
 
 This repository is the public home for the community: feature requests, bug reports,
-discussions and the public roadmap. The framework's source code is developed in a
+discussions and the public roadmap. The game mode's source code is developed in a
 separate private repository for now.
 
 - Website & early access: https://leonidalife.dev
@@ -15,10 +16,9 @@ separate private repository for now.
 
 ## Status
 
-Leonida Life is in active development. The core is game-independent and is built and
-tested with a browser simulator. GTA VI is a planned target, subject to official
-multiplayer and modding tools from Rockstar Games, which are not available yet.
-Nobody can run a GTA VI server with Leonida Life today.
+In development: nothing is playable yet. GTA VI is announced for consoles only, with
+no PC version or official modding and multiplayer tools. Leonida Life will only run
+in GTA VI through official tools.
 
 ## How to contribute feedback
 
