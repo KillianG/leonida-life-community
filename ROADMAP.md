@@ -27,6 +27,7 @@ Being built now, not merged yet.
 Designed, not started.
 - FiveM adapter as a proof of concept
 - More templates beyond Classic Life
+- Bank heists for rebel factions
 
 ## Blocked by external SDK
 - GTA VI adapter. Rockstar Games has not released official multiplayer or modding tools for GTA VI. Until it does, nobody can run a Leonida Life server inside GTA VI, and we will not ship workarounds. The core is game-independent so it is ready when official tools exist.
